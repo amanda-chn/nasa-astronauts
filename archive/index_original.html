@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>How hard is it to become an astronaut, anyway?</title>
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <main>
+            <div class="container title">
+                <h1 class="title is-1">How hard is it to become an astronaut anyway?</h1>
+                <h2 class="subtitle is-5">Subtitle - still need to come up with this</h2>
+            </div>
+
+            <div class="text section">
+               <p>
+                Every four years, NASA chooses a select new group of astronauts to explore where few humans have ever explored, and discover the unknown. The newest class of NASA astronauts, Group 23, were chosen last fall and received a particularly high amount of buzz given the new Artemis Program that was announced back in May 2019. This program is dedicated sending humans back to the moon by 2024, and eventually onward to Mars. With these new sights in mind, the anticipation to join the Artemis class of astronauts was high… and the competition was brutal. 
+               </p>
+            </div>
+
+            <div class="text section">
+                <p>How many people applied to in the most recent call of astronauts?</p>
+                <p>
+                Each dot represents one applicant.
+                </p>
+             </div>
+
+            <div id="webgl-viz-main"></div>
+
+            <div class="section">
+               <p>
+                Applications to join the Artemis Generation was open from March 2-31, 2020. During that period, NASA received over 12,000 applications from hopeful astronauts. This number was only second to the previous 2017’s cycle, where a record-breaking 18,300-plus applications were received. 2021’s candidate qualifications were more stringent than its previous cycle, which might explain the disparity between the two. Now, instead of a Bachelor’s degree, the education requirements have been raised to a Master’s or PhD, and the application period has also been shortened on top of that. The process to getting an offer to join NASA’s ranks is a long and arduous one. Over the course of 18 months, candidates are assessed, evaluated, and interviewed with careful eyes, that is, if they even make it that far. 
+               </p>
+
+               <p>
+                Let’s take a look at the application process and see just how hard it really is to become an of the lucky chosen few. 
+               </p>
+            </div>
+            
+            <section id="scrolly">
+                <div class="sticky-thing">
+                    <div id="webgl-viz"></div>
+                </div>
+                <article>
+                    <div class="step is-active" id="step0">
+                    </div>
+
+                    <div class="step is-active" id="step1">
+                        <p>We already know more than 12,000 hopefuls applied to be apart of NASA’s Group 23.</p>
+                        <p>Of these 12,000 applicants, most won’t have the necessary degrees, experience in lab work, or logged flight hours needed to be even get their application in front of a pair of eyes.</p>
+                        <p>These unqualified or not-qualified-enough applications will be tossed, leaving about 500 “Highly Qualified” applicants to be reviewed by NASA’s Astronaut Selection Board.
+                        </p>
+                    </div>
+
+                    <div class="step is-active" id="step2" >
+                        <p>During this review process, references and Qualifications Inquiry forms are sent out to further narrow down the group.
+                        </p>
+                        <p>Of the 500 “Highly Qualified” individuals, only about 120 are invited to interview at NASA's Johnson Space Center in Houston, Texas.</p> 
+                    </div>
+
+                    <div class="step is-active" id="step3">
+                        <p>First round interviews take place.</p>
+                        <p>Only half of those who have made it so far will be chosen to return for second round interviews.</p>
+                    </div>
+
+                    <div class="step is-active" id="step4">
+                        <p>Second round interviews and asessments take place.</p>
+                        <p>From 12,000 initial applicants to now the 60 who are still in the runnning, there is a 0.5% chance of getting this far. From the final 60, we will meet our Candidate Class.</p>
+                    </div>
+
+                    <div class="step is-active" id="step5">
+                        <p>In December 2021, 10 individuals were chosen to be apart of NASA’s Artemis generation. They will report to the Johnson Space Center in January of 2022, for two years of astronaut training before being assigned a mission, hopefully to the moon. </p>
+                    </div>
+
+                    <div class="step is-active">
+                        <!-- leave the first step empty for spacing -->
+                    </div>      
+                </article>
+
+
+            </section>
+
+            <section id="outro">
+                <p>Let's meet the lucky few who have made it this far.</p>
+            </section>
+            
+        </main>
+
+
+         <!-- scrollytelling stuff -->
+        <script src="https://unpkg.com/scrollama@3.1.1/build/scrollama.js"></script>
+        <script src="https://unpkg.com/d3@7.6.1/dist/d3.min.js"></script>
+        <!-- uncomment this next line if you want nice-looking canvas -->
+        <!-- <script src="libs/hidpi-canvas.js"></script> -->
+        <script src="libs/d3.v7.min.js"></script>
+        <script src="libs/topojson.min.js"></script>
+        <script src="libs/d3-geo-projection.js"></script>
+        <script src="libs/pixi.js"></script>
+        <script src="libs/gsap.min.js"></script>
+
+        <script src="main.js"></script>
+
+
+
+    </body>
+</html>

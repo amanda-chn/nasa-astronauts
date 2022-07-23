@@ -1,0 +1,194 @@
+main {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+    margin: auto;
+    max-width: 700px;
+}
+#container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 3em;
+    /* background: #8087ff; */
+    /* color: white; */
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+.text .section{
+    max-width: 700px;
+    padding: 10px
+}
+
+.graphic p{
+    text-align: center;
+}
+
+#webgl-viz {
+	position: sticky;
+	top: 5rem;
+}
+
+/* my scrolly stuff (from mitch)*/
+
+article {
+	align-items: flex-end; 
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.step {
+	color: #fff;
+	margin: 0;
+	margin-bottom: 80vh;
+	position: relative;
+	z-index: 20;
+}
+
+.step p {
+	background-color: white;
+	width: 300px;
+	max-width: 90%;
+	padding: 10px;
+	margin: 0;
+}
+
+
+/* soma's scrolly stuff */
+#scrolly {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+    margin-top: 5em;
+    margin-bottom: 5em;
+  } 
+
+  #scrolly > * {
+    -webkit-box-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+  }
+
+  article {
+    position: relative;
+    padding: 0 1rem;
+    max-width: 20rem;
+  }
+
+  .sticky-thing {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color:white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sticky-thing p {
+    padding: 0rem;
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
+  }
+
+  .step {
+    margin-bottom: 80vh;
+    background-color: white;
+    color: #fff;
+  }
+
+  .step.last-child {
+    margin-bottom: 0;
+  }
+
+  .step.is-active {
+    background-color: white;
+    color:black;
+  }
+
+  .step p {
+    text-align: left;
+    margin: 5px;
+    font-size: 1rem;
+  } 
+
+
+/* Scrolly from the pudding - this didn't work*/
+/* 
+#scroll {
+    position: relative
+}
+
+.scroll__graphic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: auto;
+    width: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+  
+.scroll__graphic.is-fixed {
+    position: fixed;
+}
+  
+.scroll__graphic.is-bottom {
+    bottom: 0;
+    top: auto;
+}
+
+.scroll__text {
+    padding: 0 1rem;
+    max-width: 30rem;
+  }
+  
+.step {
+    opacity: 0;
+    padding: 1rem;
+}
+  
+.step.is-active {
+    opacity: 1;
+}
+ */
+
+
+
+
+
+
+/* random stuff I don't think we need to use */
+
+/* svg {
+    margin: 0 auto;
+    display: block;
+} */
+
+/* .controller {
+    background: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 21px;
+} */
+
+/* side by side scrolly  */
+/* https://github.com/jsoma/ai2html-walkthroughs/tree/main/layers-scrollytelling */

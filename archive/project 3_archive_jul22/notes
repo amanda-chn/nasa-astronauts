@@ -1,0 +1,37 @@
+ //Map button
+    d3.select("#to-distributed").on("click", function () {
+        // Give the cities a new target x and y
+        datapoints.forEach(d => {
+            gsap.to(d.circle.position, { x: d.distributedCoords.x, y: d.distributedCoords.y, duration: 1.5 })
+        })
+    })
+
+    //can I make my own box and function?
+        d3.select("#box").on("scroll", function () {
+        // Give the cities a new target x and y
+        datapoints.forEach(d => {
+            gsap.to(d.circle.position, { x: d.distributedCoords.x, y: d.distributedCoords.y, duration: 1.5 })
+        })
+    })
+
+    // Chart button
+    d3.select("#to-circle").on("click", function () {
+        // Give the cities a new target x and y
+        datapoints.forEach(d => {
+            gsap.to(d.circle.position, { x: d.circleCoords.x, y: d.circleCoords.y, duration: 1.5 })
+        })
+    })
+
+    d3.select("#to-small-circle").on("click", function () {
+        // Give the cities a new target x and y
+        datapoints.forEach(d => {
+            gsap.to(d.circle.position, { x: d.smallCircleCoords.x, y: d.smallCircleCoords.y, duration: 1.5 })
+        })
+    })
+
+    d3.select("#to-medium-circle").on("click", function () {
+        // Give the cities a new target x and y
+        datapoints.forEach(d => {
+            gsap.to(d.circle.position, { x: d.mediumCircleCoords.x, y: d.mediumCircleCoords.y, duration: 1.5 })
+        })
+    })

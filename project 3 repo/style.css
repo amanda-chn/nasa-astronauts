@@ -1,0 +1,186 @@
+html, body {
+  margin: 0;
+  background:#f0f0f0 ;
+  color:#000000;
+}
+
+main {
+	align-items: center;
+  margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+  margin: 0 auto;
+}
+
+#container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 2em;
+    /* background: #8087ff; */
+    /* color: white; */
+    display: inline-block;
+    max-width: 900px;
+    padding: 5px 20px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+  }
+
+.container h2 {
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px;
+    font-family: 'Courier Prime', monospace;
+    font-style: italic;
+    color: #67645e;
+    font-size: .7em;
+    font-weight: 500;
+}
+.text.section{
+    max-width: 700px;
+    padding: 10px !important;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#webgl-viz {
+	position: sticky;
+	/* top: 5rem; */
+}
+
+/* my scrolly stuff (from mitch)*/
+
+/* article {
+	align-items: flex-end; 
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}  */
+
+.step {
+	color: #fff;
+	margin: 0;
+	margin-bottom: 80vh;
+	position: relative;
+	z-index: 20;
+}
+
+.step.is-active {
+  background-color: #f0f0f0 ;
+  color:black;
+}
+
+.step p {
+	background-color: #f0f0f0 ;
+	width: 500px;
+	max-width: 90%;
+  padding-top: 10px;
+	padding-bottom: 20px;
+  /* padding-left: 10px; */
+}
+
+#scrolly {
+    position: relative;
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
+    display: flex;
+    padding: 30px;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+  } 
+
+  #scrolly > * {
+    -webkit-box-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+  }
+
+  article {
+    position: relative;
+    padding-left: 3rem;
+    max-width: 30rem;
+  }
+
+  .sticky-thing {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    /* left: 0; */
+    /* margin: 5 em; */
+    padding: 0 5rem;
+    background-color:#f0f0f0 ;
+    z-index: 0;
+    top: 0;
+    height: 100vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .sticky-thing p {
+    position: sticky;
+    padding: 10px;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 900;
+    color: black;
+    justify-content: center;
+    font-family: 'Courier Prime', monospace;
+    color: #67645e;
+    font-weight: 200;
+
+
+  }
+
+  .step.last-child {
+    margin-bottom: 0;
+  }
+
+  .hidden { visibility: hidden; }
+
+	  /* When it's less than 700 pixels wide, do normal scrollytelling */
+    /* still need to work this out*/
+	  @media only screen and (min-width: 700px) {
+		#scrolly.side-by-side {
+			display: flex;
+		}
+
+		#scrolly.side-by-side > div {
+			flex-basis: 0;
+			flex-grow: 1;
+			flex-shrink: 1;
+			padding: 0.75em;
+		}
+
+		#scrolly.side-by-side .scrolly-overlay {
+			margin-top: 70vh;
+			order: 0;
+			/* Change these to adjust sizing options */
+			min-width: 15rem;
+			max-width: 20rem;
+		}
+
+		#scrolly.side-by-side .sticky-thing {
+			order: 1;
+			flex-grow: 2;
+		}
+  }
+
+  /* getting the SVG to show up */
+  .graphic{
+    width: 850px;
+    padding: 3rem;
+    margin: 0, auto;
+  }
+  .graphic p {
+    text-align: center;
+    padding: 2rem;
+  }
+  .svg {
+    width: 100%
+  }
