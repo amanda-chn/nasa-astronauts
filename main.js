@@ -224,7 +224,7 @@ scroller
   .setup({
     container: "#scrolly",
     step: ".step",
-    offset: 0.4,
+    offset: 0.10,
 	// debug: true
   })
   
