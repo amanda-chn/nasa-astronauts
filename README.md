@@ -3,7 +3,7 @@ A two-week project for the Lede program 2022 - an intensive data journalism cour
 
 For project 3, I really wanted to focus on using visual elements to tell a story. I thought it would be really interesting to see just how hard it is to be chosen to be a NASA astronaut and use circles as a visual representation of the applicants and the elimination process throughout the application cycle. I started doing my research online and gathered the numbers and data necessary for this piece (see sources below).
 
-There were plenty of pieces that inspired mine, but the two that most closely emulated what I was trying to make were The Pudding’s piece on Making it Big and NYTimes’ piece on the Deportation of Unauthorized Immigrants. 
+There were plenty of pieces that inspired mine, but the two that most closely emulated what I was trying to make were The Pudding’s piece on [Making it Big]<https://pudding.cool/2017/01/making-it-big/> and NYTimes’ piece on the [Deportation of Unauthorized Immigrants]<https://www.nytimes.com/interactive/2016/11/29/us/trump-unauthorized-immigrants.html>. 
 
 In class, we had just learned the basics of Scrollama and D3, so I knew I wanted to incorporate those two libraries. Soma introduced me to PIXI.js, and helped me create the base code. There was A LOT of experimenting, hitting deadends, and pivoting in different directions, but I managed to add to the base code, stylize, and incorporate the PIXI elements into the scrollytelling format I was looking for. 
 
