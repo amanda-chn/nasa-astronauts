@@ -12,7 +12,7 @@ This piece is still very much in progress. In the future, I’d like to add a ti
 All code can be found on GitHub. 
 
 Sources:
-https://www.space.com/nasa-receives-over-12000-astronaut-applications-for-artemis-generation.html
-https://www.nasa.gov/audience/forstudents/postsecondary/features/F_Astronaut_Requirements.html
-https://www.washingtonpost.com/news/speaking-of-science/wp/2016/02/22/nasa-needs-14-new-astronauts-a-record-breaking-18300-folks-applied/
-https://spacecenter.org/nasas-new-astronaut-class-announced/#:~:text=Yesterday%2C%20NASA%20Administrator%20Bill%20Nelson,50%20states%20and%20U.S.%20territories. 
+*https://www.space.com/nasa-receives-over-12000-astronaut-applications-for-artemis-generation.html
+*https://www.nasa.gov/audience/forstudents/postsecondary/features/F_Astronaut_Requirements.html
+*https://www.washingtonpost.com/news/speaking-of-science/wp/2016/02/22/nasa-needs-14-new-astronauts-a-record-breaking-18300-folks-applied/
+*https://spacecenter.org/nasas-new-astronaut-class-announced/#:~:text=Yesterday%2C%20NASA%20Administrator%20Bill%20Nelson,50%20states%20and%20U.S.%20territories. 
