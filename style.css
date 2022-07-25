@@ -157,34 +157,36 @@ h1 {
 	  /* When it's less than 700 pixels wide, do normal scrollytelling */
     /* still need to work this out*/
 	  @media only screen and (min-width: 700px) {
-		#scrolly.side-by-side {
+		#scrolly {
 			display: flex;
+      /* display: -webkit-box;
+      display: -ms-flexbox; */
 		}
 
-		#scrolly.side-by-side > div {
+		#scrolly > div {
 			flex-basis: 0;
 			flex-grow: 1;
 			flex-shrink: 1;
 			padding: 0.75em;
 		}
 
-		#scrolly.side-by-side .scrolly-overlay {
-			margin-top: 70vh;
+		#scrolly .scrolly-overlay {
+			margin-top: 60vh;
 			order: 0;
 			/* Change these to adjust sizing options */
 			min-width: 15rem;
 			max-width: 20rem;
 		}
 
-		#scrolly.side-by-side .sticky-thing {
-			order: 1;
+		#scrolly .sticky-thing {
+			order: 0;
 			flex-grow: 2;
 		}
   }
 
   /* getting the SVG to show up */
   .graphic{
-    width: 850px;
+    max-width: 800px;
     padding: 3rem;
     margin: 0, auto;
   }
