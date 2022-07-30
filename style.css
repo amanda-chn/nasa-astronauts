@@ -3,21 +3,18 @@ html, body {
   background:#f0f0f0 ;
   color:#000000;
 }
-
 main {
-	align-items: center;
+    align-items: center;
   margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
   margin: 0 auto;
 }
-
 #container {
     max-width: 700px;
     margin: 0 auto;
 }
-
 h1 {
     margin-top: 2em;
     /* background: #8087ff; */
@@ -29,9 +26,7 @@ h1 {
     /* font-family: 'Space Mono', monospace; */
     font-family: 'Courier Prime', monospace;
     font-size: 52px !important
-
   }
-
 .container h2 {
     text-align: center;
     padding-top: 20px;
@@ -42,7 +37,6 @@ h1 {
     font-size: .7em;
     font-weight: 600;
 }
-
 .container h3 {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
@@ -56,47 +50,33 @@ h1 {
     font-size:16px;
     font-weight: 400;
 }
-
 #webgl-viz {
-	position: sticky;
-	/* top: 5rem; */
+    position: sticky;
+    /* top: 5rem; */
 }
-
 /* my scrolly stuff (from mitch)*/
-
 /* article {
-	align-items: flex-end; 
-	display: flex;
-	flex-direction: column;
-	position: relative;
+    align-items: flex-end; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }  */
-
 .step {
-	color: #fff;
-	margin: 0;
-	margin-bottom: 70vh;
-	position: relative;
-	z-index: 20;
-}
-
-.step.is-active {
-  background-color: #f0f0f0 ;
+    margin: 0;
+    margin-bottom: 70vh;
+    position: relative;
+    z-index: 20;
+  background-color: rgba(240,240,240,0.75);
   color:black;
 }
-
 .step p {
-	background-color: #f0f0f0 ;
-	width: 500px;
-	max-width: 90%;
-  padding-top: 10px;
-	padding-bottom: 20px;
-  /* padding-left: 10px; */
+    max-width: 500px;
+  padding: 20px;
   font-family: 'Courier Prime', monospace;
   color: #67645e;
   font-size: 14px;
   font-weight: 200;
 }
-
 #scrolly {
     position: relative;
     /* display: -webkit-box;
@@ -106,19 +86,15 @@ h1 {
     /* margin-top: 10px;
     margin-bottom: 10px; */
   } 
-
   #scrolly > * {
-    -webkit-box-flex: 0;
-    -ms-flex: 0;
-    flex: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
-
   article {
     position: relative;
-    padding-left: 3rem;
     max-width: 30rem;
   }
-
   .sticky-thing {
     position: -webkit-sticky;
     position: sticky;
@@ -136,7 +112,6 @@ h1 {
     justify-content: center;
     flex-direction: column;
   }
-
   .sticky-thing p {
     position: sticky;
     padding: 10px;
@@ -147,43 +122,41 @@ h1 {
     font-weight: 400;
     font-size: large;
   }
-
   .step.last-child {
     margin-bottom: 0;
   }
-
   .hidden { visibility: hidden; }
-
-	  /* When it's less than 700 pixels wide, do normal scrollytelling */
+      /* When it's less than 700 pixels wide, do normal scrollytelling */
     /* still need to work this out*/
-	  @media only screen and (min-width: 700px) {
-		#scrolly {
-			display: flex;
+      @media only screen and (max-width: 700px) {
+        #scrolly {
+            /* display: flex; */
+      display: block !important;
       /* display: -webkit-box;
       display: -ms-flexbox; */
-		}
-
-		#scrolly > div {
-			flex-basis: 0;
-			flex-grow: 1;
-			flex-shrink: 1;
-			padding: 0.75em;
-		}
-
-		#scrolly .scrolly-overlay {
-			margin-top: 60vh;
-			order: 0;
-			/* Change these to adjust sizing options */
-			min-width: 15rem;
-			max-width: 20rem;
-		}
-
-		#scrolly .sticky-thing {
-			order: 0;
-			flex-grow: 2;
-		}
+        }
+    #scrolly > article {
+      margin: 0 auto;
+      padding-left: 0;
+    }
+        #scrolly > div {
+            flex-basis: 0;
+            flex-grow: 1;
+            flex-shrink: 1;
+            padding: 0.75em;
+        }
+        #scrolly .scrolly-overlay {
+            margin-top: 60vh;
+            order: 0;
+            /* Change these to adjust sizing options */
+            min-width: 15rem;
+            max-width: 20rem;
+        }
+        #scrolly .sticky-thing {
+            order: 0;
+            flex-grow: 2;
+        }
   }
-
   /* getting the SVG to show up */
   .graphic{
     max-width: 800px;
@@ -202,7 +175,6 @@ h1 {
   .svg {
     width: 100%;
   }
-
   .github {
     padding-bottom: 3em;
   }
