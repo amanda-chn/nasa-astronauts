@@ -158,6 +158,7 @@ h1 {
             /* min-width: 15rem; */
             max-width: 350rem;
             z-index: 1 !important;
+            position: relative;
         }
 
         #scrolly .sticky-thing {
