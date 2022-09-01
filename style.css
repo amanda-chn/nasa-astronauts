@@ -72,7 +72,6 @@ h1 {
     z-index: 20;
   background-color: rgba(240,240,240,0.75);
   color:black;
-  transform: translate3d(0,0,0);
 }
 .step p {
     max-width: 500px;
@@ -90,6 +89,8 @@ h1 {
     padding: 30px;
     /* margin-top: 10px;
     margin-bottom: 10px; */
+    transform: translate3d(0,0,0);
+
   } 
   #scrolly > * {
     -webkit-box-flex: 1;
@@ -160,6 +161,7 @@ h1 {
             max-width: 350rem;
             z-index: 1 !important;
             position: relative;
+            transform: translate3d(0,0,0);
         }
 
         #scrolly .sticky-thing {
